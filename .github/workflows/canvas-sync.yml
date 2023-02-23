@@ -27,5 +27,5 @@ jobs:
       - name: Sync from .canvas file
         run: github-to-canvas -a -lr --forkable
         env:
-          CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }}
+          CANVAS_API_KEY: ${{ secrets.CANVAS_API_KEY }} #GDC2
           CANVAS_API_PATH: ${{ secrets.CANVAS_API_PATH }}
